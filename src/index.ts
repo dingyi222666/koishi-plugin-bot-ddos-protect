@@ -1,4 +1,4 @@
-import { Context, Dict, Schema, Disposable } from 'koishi'
+import { Context, Dict, Schema, Disposable, SessionError } from 'koishi'
 
 export function apply(ctx: Context, config: Config) {
     const states: Dict<MessageState> = {}
